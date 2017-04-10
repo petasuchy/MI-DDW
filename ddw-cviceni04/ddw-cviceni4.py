@@ -45,7 +45,9 @@ def createG(S, alpha):
 
 def computePR(M, iterations):
     dimension = M.shape[0]
-    pi = np.full(dimension, 1 / dimension)
+    # pi = np.full(dimension, 1 / dimension)
+    pi = np.zeros(dimension)
+    pi[0]=1
     for i in range(iterations):
         print("Phi {}: {} (checksum = {})".format(i, pi, pi[:].sum()))
         pi = pi @ M
