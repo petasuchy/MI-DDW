@@ -105,10 +105,10 @@ def exportGraph(graph):
 
 # MAIN
 inputFile = "/home/petr/skola/DDW/ddw-hw4/casts.csv"
-graph = loadInput(inputFile, 20000)
+graph = loadInput(inputFile, 20000000)
 printBasics(graph)
-printCentralities(graph, True)
-printCommunities(graph)
+printCentralities(graph, False)
+#printCommunities(graph)
 printKevinBacon(graph)
 exportGraph(graph)
 

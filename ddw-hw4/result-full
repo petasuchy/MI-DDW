@@ -1,0 +1,14 @@
+/home/petr/skola/DDW/ddw-env/bin/python3 /home/petr/skola/DDW/ddw-hw4/ddw-hw4.py
+Graph has 16520 nodes, 151167 edges and 744 components.
+It's density is 0.0011078812027591092
+
+Centrality:
+	Top5 by degree centrality: [('Humphrey Bogart', 0.025970095042072764), ('James Stewart', 0.022398450269386767), ('Gary Cooper', 0.022337913917307342), ('John Carradine', 0.022156304861069072), ('John Gielgud', 0.022095768508989647)]
+	Top5 by eigen vector centrality: [('C.Aubrey Smith', 0.10510634230327501), ('John Carradine', 0.09909881481695412), ('James Stewart', 0.09286721723816511), ('Peter Lorre', 0.09279628803724893), ('John Gielgud', 0.09131468299201792)]
+
+Kevin Bacon Number to James Stewart:
+	Average Kevin Becon number is 2.630600571973308
+	Lowest (closest) top10: [('James Stewart', 0), ('William Powell', 1), ('Nat King Cole', 1), ('Robert Taylor', 1), ('Dennis Hopper', 1), ('Charley Grapwin', 1), ('Philip DForn', 1), ('George C. Scott', 1), ('Christopher Olson', 1), ('Walter Pidgeon', 1)]
+	Highest (farthest) top10: [('Antonia SanJuan', 6), ('Jose Sacristan', 6), ('Paredes', 6), ('Leonard Lucieer', 6), ('Marbel Verdu', 6), ('Elisa Touati', 6), ('Kazuo Hasegawa', 6), ('Jack Wouterse', 6), ('Alex VanWarmerdam', 6), ('Haren Chatterjee', 6)]
+
+Process finished with exit code 0
